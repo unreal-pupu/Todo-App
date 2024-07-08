@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #845EC2;
+    color: #B0A8B9;
+    position: relative;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 5% 0 0 5%;
+}
+form{
+    margin-bottom: 50px;
+}
+form input{
+    border: none;
+    background-color: #4B4453;
+    border-bottom: 1px solid #B0A8B9;
+    width: 250px;
+    padding: 10px 20px;
+    color: #B0A8B9;
+    outline: none;
+}
+form input::placeholder{
+    color: #B0A8B9;
+    opacity: 0.6;
+}
+form button{
+    background: #4B4453;
+    border: 1px solid #B0A8B9;
+    color: whitesmoke;
+    padding: 5px 10px;
+    transition: all 0.3 ease-in ;
+}
+form button:hover{
+    background: #00896F;
+    color: #B0A8B9;
+}
+.todo li{
+    border-bottom: 1px solid #B0A8B9;
+    list-style-type: none;
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.delete{
+    padding: 5px 10px ;
+    background: #00C0A3;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.delete:hover{
+    transform: scale(1.3);
+}
